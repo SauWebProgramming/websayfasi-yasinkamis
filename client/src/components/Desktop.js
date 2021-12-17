@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Txt from "../assets/navbar/txt.png"
 import Chrome from "../assets/navbar/chrome.png"
-import ChromePage from './ChromePage'
+//import ChromePage from './ChromePage'
 //import TxtFile from './TxtFile'
 
 const Desktop = () => {
@@ -23,7 +23,7 @@ const Desktop = () => {
                 <img src={Chrome} className='chrome' alt="icon" />
             </div>
             {/*<TxtFile/>*/}
-            <ChromePage/>
+            {/*<ChromePage/>*/}
         </div>
     )
 }
