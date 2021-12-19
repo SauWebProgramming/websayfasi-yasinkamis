@@ -8,6 +8,7 @@ import PopUp from './PopUp'
 const Desktop = () => {
     const [tick, setTick] = useState(null)
     const [open, setOpen] = useState(null)
+    const [openPop, setOpenPop] = useState(false)
     return (
         <div className='container-fluid desktop' >
             <div
@@ -25,7 +26,14 @@ const Desktop = () => {
             </div>
             {/*<TxtFile/>*/}
             {/*<ChromePage/>*/}
-            <PopUp/>
+            (<button type='button' className='popUp-button' onClick={()=>{setOpenPop(true)}}>Bilgi</button>)
+            {
+                (
+                    openPop
+                    &&
+                    <PopUp/>
+                )
+            }
         </div>
     )
 }

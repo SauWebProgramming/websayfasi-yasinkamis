@@ -2,7 +2,10 @@ import React, { useState } from 'react';
 
 const PopUp = () => {
     return (
-        <div>
+        <div className='backdrop container-fluid'>
+            <div className='backdrop_pop-up'>
+
+            </div>
         </div>
     )
 }
