@@ -8,7 +8,7 @@ const Loader = () => {
         setLoading(true)
     },4000)
     return (
-        <div className={`container-fluid loader ${loading && "finish"}`}>
+        <div className={`container-fluid loader ${loading && "finish"}  ${(localStorage.getItem('login')) && "close"}`}>
             <ClockLoader color={"white"} size={70}/>
             <h5>YÜKLENİYOR<span><PulseLoader color={"white"} size={5}/></span></h5>
             <h6>F11 Tuşuna tıklayarak tam ekrana alınız</h6>
