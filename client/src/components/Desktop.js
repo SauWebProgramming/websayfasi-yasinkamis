@@ -26,7 +26,9 @@ const Desktop = () => {
             </div>
             {/*<TxtFile/>*/}
             {/*<ChromePage/>*/}
-            (<button type='button' className='popUp-button' onClick={()=>{setOpenPop(true)}}>Bilgi</button>)
+            {
+                ( !openPop && <button type='button' className='popUp-button' onClick={()=>{setOpenPop(true)}}>Bilgi</button>)
+            }
             {
                 (
                     openPop
