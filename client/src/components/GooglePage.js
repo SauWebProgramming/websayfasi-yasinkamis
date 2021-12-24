@@ -5,7 +5,7 @@ const GooglePage = () => {
     return (
         <div className='google'>
             <img src={GoogleLogo} alt="google"/>
-            <input type="text" disabled value="Yukarıdaki URL kısmına 'www.facebook.com' linkini giriniz."/>
+            <input type="text" disabled value="Yukarıdaki URL kısmına 'www.instagram.com' linkini giriniz."/>
         </div>
     )
 }

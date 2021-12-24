@@ -25,7 +25,7 @@ const Desktop = () => {
                 <img src={Chrome} className='chrome' alt="icon" />
             </div>
             {/*<TxtFile/>*/}
-            {/*<ChromePage/>*/}
+            <ChromePage/>
             {
                 ( !openPop && <button type='button' className='popUp-button' onClick={()=>{setOpenPop(true)}}>Bilgi</button>)
             }
