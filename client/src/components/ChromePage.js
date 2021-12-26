@@ -4,7 +4,7 @@ import Close from "../assets/files/çık.png"
 import Instagram from './Instagram'
 import Google from './GooglePage'
 import {useDispatch} from "react-redux"
-import * as actionTypes from "../../redux/actions/actionTypes"
+import * as actionTypes from "../redux/actions/actionTypes"
 
 const ChromePage = () => {
     const dispatch = useDispatch()

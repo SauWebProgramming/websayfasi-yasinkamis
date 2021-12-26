@@ -5,7 +5,7 @@ import ChromePage from './ChromePage'
 import TxtFile from './TxtFile'
 import PopUp from './PopUp'
 import {useDispatch, useSelector} from "react-redux"
-import * as actionTypes from "../../redux/actions/actionTypes"
+import * as actionTypes from "../redux/actions/actionTypes"
 
 const Desktop = () => {
     const [tick, setTick] = useState(null)

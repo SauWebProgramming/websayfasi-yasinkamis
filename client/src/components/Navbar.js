@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import {useDispatch, useSelector} from "react-redux"
-import * as actionTypes from "../../redux/actions/actionTypes"
+import * as actionTypes from "../redux/actions/actionTypes"
 import Win from "../assets/navbar/windows.png"
 import Search from "../assets/navbar/find.png"
 import File from "../assets/navbar/folder.png"

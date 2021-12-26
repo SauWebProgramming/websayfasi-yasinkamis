@@ -7,7 +7,7 @@ import Justify from "../assets/txt/justify.png"
 import Alt from "../assets/files/alt.png"
 import Close from "../assets/files/çık.png"
 import {useDispatch} from "react-redux"
-import * as actionTypes from "../../redux/actions/actionTypes"
+import * as actionTypes from "../redux/actions/actionTypes"
 
 
 const TxtFile = () => {
