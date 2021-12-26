@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
-import {useSelector} from 'react-redux'
+import {useDispatch, useSelector} from "react-redux"
+import * as actionTypes from "../../redux/actions/actionTypes"
 import Win from "../assets/navbar/windows.png"
 import Search from "../assets/navbar/find.png"
 import File from "../assets/navbar/folder.png"
@@ -18,6 +19,15 @@ const Navbar = () => {
     const [isDate, setIsDate] = useState(null);
     const isChromeActive = useSelector(state => state.file.isChromeActive)
     const isTxtActive = useSelector(state => state.file.isTxtActive)
+    const dispatch = useDispatch()
+    const handleOpen =  () => {
+        dispatch({type: actionTypes.OPEN_CHROME})
+        dispatch({type: actionTypes.CLOSE_TXT})
+    }
+    const handleOpen2 =  () => {
+        dispatch({type: actionTypes.OPEN_TXT})
+        dispatch({type: actionTypes.CLOSE_CHROME})
+    }
     const timeControl = () =>{
         let time = new Date().toLocaleTimeString().slice(0,5)
         setIsTime(time)
@@ -45,10 +55,10 @@ const Navbar = () => {
             <div className='navbar_icons'>
                 <img src={Spotify} alt="icon"/>
             </div>
-            <div className={`navbar_icons ${isTxtActive && "active"}`}>
+            <div className={`navbar_icons ${isTxtActive && "active"}`} onClick={()=>{handleOpen2()}}>
                 <img src={Txt} alt="icon"/>
             </div>
-            <div className={`navbar_icons ${isChromeActive && "active"}`}>
+            <div className={`navbar_icons ${isChromeActive && "active"}`} onClick={()=>{handleOpen()}}>
                 <img src={Chrome} alt="icon"/>
             </div>
             <div className='navbar_miniIcons'>
