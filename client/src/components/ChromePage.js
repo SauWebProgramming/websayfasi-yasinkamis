@@ -10,7 +10,7 @@ const ChromePage = () => {
     const [linkChange, setLinkChange] = useState("www.google.com")
     const [linkSearch, setLinkSearch] = useState("www.google.com")
     return (
-        <div className='container-fluid chromePage'>
+        <div className='container-fluid chromePage p-0'>
             <div className='chromePage_upper'>
                 <div className='chromePage_upper_alt'>
                     <img src={Alt} alt="_" />
@@ -23,7 +23,7 @@ const ChromePage = () => {
                 <input type="text" placeholder={"Bir URL yazın"} defaultValue={linkSearch} onChange={(e) => { setLinkChange(e.target.value) }} />
                 <button type='button' onClick={() => { setLinkSearch(linkChange) }}>Ara</button>
             </div>
-            <div className='chromePage_page-box'>
+            <div className='chromePage_page-box p-0'>
                 {
 
                     (linkSearch === linkInstagram)

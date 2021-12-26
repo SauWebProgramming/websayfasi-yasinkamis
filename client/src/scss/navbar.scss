@@ -8,6 +8,7 @@
     backdrop-filter: blur(2px);
     -moz-backdrop-filter: blur(2px);
     @include flex(center,center);
+    z-index: 30;
     &_icons{
         position: relative;
         width: 40px;
