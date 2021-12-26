@@ -1,2 +1,1 @@
-# websayfasi-yasinkamis
-websayfasi-yasinkamis created by GitHub Classroom
+# win 11 clone
