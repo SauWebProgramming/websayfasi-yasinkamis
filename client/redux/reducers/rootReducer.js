@@ -1,9 +1,9 @@
 import {combineReducers} from "redux"
-import { authReducer } from "./authReducer"
+import { fileReducer } from "./fileReducer"
 
 
 const rootReducer =combineReducers({
-    auth: authReducer, 
+    file: fileReducer, 
 })
 
 export default rootReducer;

@@ -1,3 +1,4 @@
-export const GET_USER_REQUEST = "GET_USER_REQUEST"
-export const GET_USER_SUCCESS = "GET_USER_SUCCESS"
-export const GET_USER_FAILED = "GET_USER_FAILED"
+export const OPEN_CHROME = "OPEN_CHROME"
+export const CLOSE_CHROME = "CLOSE_CHROME"
+export const OPEN_TXT= "OPEN_TXT"
+export const CLOSE_TXT = "CLOSE_TXT"

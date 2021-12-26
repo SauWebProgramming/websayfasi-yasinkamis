@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import {useSelector} from 'react-redux'
 import Win from "../assets/navbar/windows.png"
 import Search from "../assets/navbar/find.png"
 import File from "../assets/navbar/folder.png"
@@ -15,6 +16,8 @@ import Battery from "../assets/navbar/battery.png"
 const Navbar = () => {
     const [isTime, setIsTime] = useState(null);
     const [isDate, setIsDate] = useState(null);
+    const isChromeActive = useSelector(state => state.file.isChromeActive)
+    const isTxtActive = useSelector(state => state.file.isTxtActive)
     const timeControl = () =>{
         let time = new Date().toLocaleTimeString().slice(0,5)
         setIsTime(time)
@@ -42,10 +45,10 @@ const Navbar = () => {
             <div className='navbar_icons'>
                 <img src={Spotify} alt="icon"/>
             </div>
-            <div className='navbar_icons'>
+            <div className={`navbar_icons ${isTxtActive && "active"}`}>
                 <img src={Txt} alt="icon"/>
             </div>
-            <div className='navbar_icons'>
+            <div className={`navbar_icons ${isChromeActive && "active"}`}>
                 <img src={Chrome} alt="icon"/>
             </div>
             <div className='navbar_miniIcons'>

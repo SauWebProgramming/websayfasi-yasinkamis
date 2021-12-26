@@ -3,8 +3,14 @@ import Alt from "../assets/files/alt.png"
 import Close from "../assets/files/çık.png"
 import Instagram from './Instagram'
 import Google from './GooglePage'
+import {useDispatch} from "react-redux"
+import * as actionTypes from "../../redux/actions/actionTypes"
 
 const ChromePage = () => {
+    const dispatch = useDispatch()
+    const handleOpen =  () => {
+        dispatch({type: actionTypes.CLOSE_CHROME})
+    }
     const linkInstagram = "www.instagram.com"
     const linkGoogle = "www.google.com"
     const [linkChange, setLinkChange] = useState("www.google.com")
@@ -15,7 +21,7 @@ const ChromePage = () => {
                 <div className='chromePage_upper_alt'>
                     <img src={Alt} alt="_" />
                 </div>
-                <div className='chromePage_upper_close'>
+                <div className='chromePage_upper_close' onClick={()=> handleOpen()}>
                     <img src={Close} alt="X" />
                 </div>
             </div>
