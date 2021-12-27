@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/websayfasi-yasinkamis/static/css/main.aa84cbde.chunk.css",
+    "main.js": "/websayfasi-yasinkamis/static/js/main.b60ed32c.chunk.js",
+    "main.js.map": "/websayfasi-yasinkamis/static/js/main.b60ed32c.chunk.js.map",
+    "runtime~main.js": "/websayfasi-yasinkamis/static/js/runtime~main.0693346d.js",
+    "runtime~main.js.map": "/websayfasi-yasinkamis/static/js/runtime~main.0693346d.js.map",
+    "static/js/2.af5776a8.chunk.js": "/websayfasi-yasinkamis/static/js/2.af5776a8.chunk.js",
+    "static/js/2.af5776a8.chunk.js.map": "/websayfasi-yasinkamis/static/js/2.af5776a8.chunk.js.map",
+    "index.html": "/websayfasi-yasinkamis/index.html",
+    "precache-manifest.bc91419cb7322fdc9e48d56e893a1186.js": "/websayfasi-yasinkamis/precache-manifest.bc91419cb7322fdc9e48d56e893a1186.js",
+    "service-worker.js": "/websayfasi-yasinkamis/service-worker.js",
+    "static/css/main.aa84cbde.chunk.css.map": "/websayfasi-yasinkamis/static/css/main.aa84cbde.chunk.css.map",
+    "static/media/background.png": "/websayfasi-yasinkamis/static/media/background.9a36a65b.png",
+    "static/media/find.png": "/websayfasi-yasinkamis/static/media/find.2ebcb5e5.png",
+    "static/media/hello.png": "/websayfasi-yasinkamis/static/media/hello.897a6c7a.png",
+    "static/media/nav-resim.png": "/websayfasi-yasinkamis/static/media/nav-resim.fa430e1c.png",
+    "static/media/post-1.png": "/websayfasi-yasinkamis/static/media/post-1.84ac92e0.png",
+    "static/media/post-2.png": "/websayfasi-yasinkamis/static/media/post-2.d939a691.png",
+    "static/media/post-3.png": "/websayfasi-yasinkamis/static/media/post-3.bfe34935.png",
+    "static/media/post-4.png": "/websayfasi-yasinkamis/static/media/post-4.cc0e69e7.png",
+    "static/media/post-5.png": "/websayfasi-yasinkamis/static/media/post-5.9b02c8a2.png",
+    "static/media/post-6.png": "/websayfasi-yasinkamis/static/media/post-6.b1b02d78.png",
+    "static/media/profile.png": "/websayfasi-yasinkamis/static/media/profile.0d71c33d.png",
+    "static/media/volume.png": "/websayfasi-yasinkamis/static/media/volume.d94b0d16.png",
+    "static/media/wifi.png": "/websayfasi-yasinkamis/static/media/wifi.eced415a.png",
+    "static/media/windows.png": "/websayfasi-yasinkamis/static/media/windows.b47b575d.png"
+  }
+}
