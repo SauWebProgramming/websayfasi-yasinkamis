@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/websayfasi-yasinkamis/precache-manifest.bc91419cb7322fdc9e48d56e893a1186.js"
+  "/websayfasi-yasinkamis/precache-manifest.43f4153da2fe955a39329680fa39658d.js"
 );
 
 self.addEventListener('message', (event) => {

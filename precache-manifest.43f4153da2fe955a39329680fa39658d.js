@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3b2e8a85bbcb49587f77fa2b5a34e89e",
+    "revision": "30990a91458dade8388e4d329fc6980c",
     "url": "/websayfasi-yasinkamis/index.html"
   },
   {
-    "revision": "26f2d9a156731048cd90",
+    "revision": "8ddbe9111e0d3dccacf2",
     "url": "/websayfasi-yasinkamis/static/css/main.aa84cbde.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/websayfasi-yasinkamis/static/js/2.af5776a8.chunk.js"
   },
   {
-    "revision": "26f2d9a156731048cd90",
-    "url": "/websayfasi-yasinkamis/static/js/main.b60ed32c.chunk.js"
+    "revision": "8ddbe9111e0d3dccacf2",
+    "url": "/websayfasi-yasinkamis/static/js/main.1e4e55d9.chunk.js"
   },
   {
     "revision": "46b09a0c8f843c14e208",
