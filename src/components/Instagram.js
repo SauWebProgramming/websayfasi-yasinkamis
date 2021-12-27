@@ -35,7 +35,7 @@ const Instagram = () => {
                         {
                             StoryUser.map((item, index) => (
                                 <div className='story-content'>
-                                    <img src={item.img} alt='photo' />
+                                    <img src={item.img} alt='post' />
                                     <p>{item.name}</p>
                                 </div>
                             ))
